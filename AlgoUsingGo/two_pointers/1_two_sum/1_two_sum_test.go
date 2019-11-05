@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func two_sum_test(t *testing.T) {
+func twoSumTest(t *testing.T) {
 
 	test := []struct {
 		data   []int

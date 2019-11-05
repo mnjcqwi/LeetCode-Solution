@@ -6,12 +6,10 @@ func towSum(nums []int, target int) []int {
 		if j, ok := rest[target-v]; !ok {
 			rest[v] = j
 		} else {
+
 			return []int{i, j}
 		}
-
 	}
 	return make([]int, 0)
 }
-func main() {
 
-}
